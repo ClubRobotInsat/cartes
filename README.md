@@ -14,7 +14,7 @@ Lorsque vous envoyez une carte à fabriquer, il faut:
 - Renommer le projet en `[identifiant] {nom}`
 
 Cela permet d'avoir une trace exacte de toutes les cartes fabriquées. Une carte dans le dossier `manufactured` n'est pas
-forcément définitive, mais cela permet d'identifier les cartes dans le local.
+forcément définitive, mais cela permet d'identifier les cartes que nous pouvons trouver dans le local.
 
 ## Procédure post-coupe
 
