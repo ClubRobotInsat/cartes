@@ -20,3 +20,13 @@ forcément définitive, mais cela permet d'identifier les cartes dans le local.
 
 Lorsque la coupe est finie il faut produire une release contenant toutes les cartes utilisées, c'est pratique pour comprendre
 comment fonctionnait le robot.
+
+## Cartes
+
+### Alimentation
+
+Carte principale d'alimentation du robot, adapte la tension batterie pour alimenter les différets composants.
+
+### Base roulante
+
+Carte pour la gestion de la base roulante du robot
