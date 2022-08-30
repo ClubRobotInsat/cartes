@@ -30,3 +30,15 @@ fp-info-cache
 *.net
 *.dsn
 *.ses
+
+*.gbr
+*.gbl
+*.gbs
+*.drl
+*.gto
+*.gtp
+*.gts
+*.gtl
+*.gm1
+*.gbo
+*.gbp
