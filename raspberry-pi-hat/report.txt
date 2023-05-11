@@ -1,0 +1,5 @@
+Plotted to '/home/joel/Documents/Code/Club_Robot/cartes/raspberry-pi-hat/raspberry-pi-hat-F_Cu.gbr'.
+Plotted to '/home/joel/Documents/Code/Club_Robot/cartes/raspberry-pi-hat/raspberry-pi-hat-B_Cu.gbr'.
+Plotted to '/home/joel/Documents/Code/Club_Robot/cartes/raspberry-pi-hat/raspberry-pi-hat-Edge_Cuts.gbr'.
+Created Gerber job file '/home/joel/Documents/Code/Club_Robot/cartes/raspberry-pi-hat/raspberry-pi-hat-job.gbrjob'.
+Info: Done.
