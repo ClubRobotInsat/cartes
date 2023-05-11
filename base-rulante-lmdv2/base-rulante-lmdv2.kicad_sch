@@ -985,7 +985,7 @@
   (junction (at 138.43 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 8f89253f-d899-4e4b-a8f4-56dfe2aed014)
   )
-  (junction (at 66.04 31.75) (diameter 0) (color 0 0 0 0)
+  (junction (at 76.2 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 977cb72c-e508-48af-8d29-8a15b82d838f)
   )
   (junction (at 68.58 69.85) (diameter 0) (color 0 0 0 0)
@@ -1052,10 +1052,6 @@
     (stroke (width 0) (type default))
     (uuid 224fdde9-62a3-4679-9d22-4b7c5e684c61)
   )
-  (wire (pts (xy 66.04 35.56) (xy 66.04 31.75))
-    (stroke (width 0) (type default))
-    (uuid 2349d0dc-f9a5-4fe6-8ceb-ab3e566a4930)
-  )
   (wire (pts (xy 241.3 44.45) (xy 248.92 44.45))
     (stroke (width 0) (type default))
     (uuid 24edd8f8-46cc-4222-bc52-efcade06922e)
@@ -1118,7 +1114,11 @@
     (stroke (width 0) (type default))
     (uuid 511d67f6-8028-4cb4-9ce5-97be05e885e3)
   )
-  (wire (pts (xy 76.2 39.37) (xy 76.2 35.56))
+  (wire (pts (xy 76.2 25.4) (xy 76.2 31.75))
+    (stroke (width 0) (type default))
+    (uuid 54090c4b-e2fe-4718-ae81-cae169c70cb9)
+  )
+  (wire (pts (xy 76.2 31.75) (xy 76.2 39.37))
     (stroke (width 0) (type default))
     (uuid 54982a17-e58b-487f-b200-42ae38c35550)
   )
@@ -1268,7 +1268,7 @@
     (stroke (width 0) (type default))
     (uuid a91df8c9-10c0-4a7b-b435-b5b0a0f08678)
   )
-  (wire (pts (xy 66.04 31.75) (xy 67.31 31.75))
+  (wire (pts (xy 76.2 25.4) (xy 83.82 25.4))
     (stroke (width 0) (type default))
     (uuid a92060eb-48eb-4a28-b872-f2b494137b9f)
   )
@@ -1355,10 +1355,6 @@
     (stroke (width 0) (type default))
     (uuid de8f7d8f-2ec8-4cde-b5b1-4af69d3a82d5)
   )
-  (wire (pts (xy 76.2 35.56) (xy 66.04 35.56))
-    (stroke (width 0) (type default))
-    (uuid e17e3d48-e382-49d4-8003-51cf1a36e2f8)
-  )
   (wire (pts (xy 66.04 59.69) (xy 66.04 69.85))
     (stroke (width 0) (type default))
     (uuid e34c7300-a2b3-4dd1-99dc-bb99ad26616f)
@@ -1379,7 +1375,7 @@
     (stroke (width 0) (type default))
     (uuid f6a16061-e7df-4924-9635-124b329ef351)
   )
-  (wire (pts (xy 64.77 31.75) (xy 66.04 31.75))
+  (wire (pts (xy 64.77 31.75) (xy 76.2 31.75))
     (stroke (width 0) (type default))
     (uuid f8082c08-be76-4f30-9976-ef170d8a5a70)
   )
@@ -1661,10 +1657,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Mot_D_Out1" (shape input) (at 67.31 31.75 0) (fields_autoplaced)
+  (global_label "Mot_D_Out1" (shape input) (at 83.82 25.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b3f1d7b0-6ae5-44eb-8f0f-01710f8075b7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.1618 31.75 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 97.6718 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1772,7 +1768,7 @@
     (property "Value" "C_Polarized" (at 146.939 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 142.24 44.1452 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 142.24 44.1452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 43.18 0)
@@ -1786,7 +1782,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "C5") (unit 1)
         )
@@ -1811,7 +1807,7 @@
     )
     (pin "1" (uuid a8756467-309f-4680-bcb8-f747da239cca))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR01") (unit 1)
         )
@@ -1841,7 +1837,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR014") (unit 1)
         )
@@ -1870,7 +1866,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "H1") (unit 1)
         )
@@ -1899,7 +1895,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "H2") (unit 1)
         )
@@ -1934,7 +1930,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "J1") (unit 1)
         )
@@ -1965,7 +1961,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "R5") (unit 1)
         )
@@ -1994,7 +1990,7 @@
           (reference "H4") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "H4") (unit 1)
         )
@@ -2025,7 +2021,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "J3") (unit 1)
         )
@@ -2056,7 +2052,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "J5") (unit 1)
         )
@@ -2086,7 +2082,7 @@
           (reference "#PWR020") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR03") (unit 1)
         )
@@ -2140,7 +2136,7 @@
     (pin "8" (uuid 8ea18cd3-d311-4555-855d-4e6bb5835f6b))
     (pin "9" (uuid 7dee02b2-39ff-41cf-bdd1-e3d609da1f79))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "U1") (unit 1)
         )
@@ -2171,7 +2167,7 @@
           (reference "D+5V1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "D+5V1") (unit 1)
         )
@@ -2201,7 +2197,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR019") (unit 1)
         )
@@ -2226,7 +2222,7 @@
     )
     (pin "1" (uuid eec51586-ec83-4626-8f7b-5ffe616eecc2))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR020") (unit 1)
         )
@@ -2257,7 +2253,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "R3") (unit 1)
         )
@@ -2287,7 +2283,7 @@
           (reference "#PWR018") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR017") (unit 1)
         )
@@ -2317,7 +2313,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR022") (unit 1)
         )
@@ -2347,7 +2343,7 @@
           (reference "#PWR07") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR010") (unit 1)
         )
@@ -2382,7 +2378,7 @@
     (pin "8" (uuid b5b12602-269b-4ec8-8a2f-9ee005f22afc))
     (pin "9" (uuid 3fa0dd12-8c6f-4b42-bc99-7503162c278a))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "U2") (unit 1)
         )
@@ -2412,7 +2408,7 @@
           (reference "#PWR019") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR02") (unit 1)
         )
@@ -2429,7 +2425,7 @@
     (property "Value" "C_Polarized" (at 75.819 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 71.12 45.4152 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 71.12 45.4152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 44.45 0)
@@ -2443,7 +2439,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "C2") (unit 1)
         )
@@ -2474,7 +2470,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "J4") (unit 1)
         )
@@ -2505,7 +2501,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "R2") (unit 1)
         )
@@ -2535,7 +2531,7 @@
           (reference "#PWR04") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR07") (unit 1)
         )
@@ -2565,7 +2561,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR012") (unit 1)
         )
@@ -2602,7 +2598,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "U4") (unit 1)
         )
@@ -2633,7 +2629,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "R4") (unit 1)
         )
@@ -2663,7 +2659,7 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR013") (unit 1)
         )
@@ -2694,7 +2690,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "R1") (unit 1)
         )
@@ -2724,7 +2720,7 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR015") (unit 1)
         )
@@ -2741,7 +2737,7 @@
     (property "Value" "C_Polarized" (at 73.279 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 68.58 40.3352 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 68.58 40.3352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 39.37 0)
@@ -2755,7 +2751,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "C3") (unit 1)
         )
@@ -2785,7 +2781,7 @@
           (reference "#PWR022") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR024") (unit 1)
         )
@@ -2819,7 +2815,7 @@
           (reference "RC_Droite1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "RC_Droite1") (unit 1)
         )
@@ -2836,7 +2832,7 @@
     (property "Value" "C_Polarized" (at 145.669 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 140.97 39.0652 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 140.97 39.0652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 38.1 0)
@@ -2850,7 +2846,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "C4") (unit 1)
         )
@@ -2884,7 +2880,7 @@
           (reference "RC_Gauche1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "RC_Gauche1") (unit 1)
         )
@@ -2914,7 +2910,7 @@
           (reference "#PWR02") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR06") (unit 1)
         )
@@ -2943,7 +2939,7 @@
           (reference "H3") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "H3") (unit 1)
         )
@@ -2974,7 +2970,7 @@
           (reference "D+12V1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "D+12V1") (unit 1)
         )
@@ -3004,7 +3000,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR08") (unit 1)
         )
@@ -3039,7 +3035,7 @@
     (pin "8" (uuid 7b18e1f0-4ebd-4f8a-9306-cc9fc15819b9))
     (pin "9" (uuid 2f2f103f-4114-4be6-80e0-8623b1a7159d))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "U3") (unit 1)
         )
@@ -3069,7 +3065,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR021") (unit 1)
         )
@@ -3099,7 +3095,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR05") (unit 1)
         )
@@ -3129,7 +3125,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR018") (unit 1)
         )
@@ -3164,7 +3160,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "J2") (unit 1)
         )
@@ -3194,7 +3190,7 @@
           (reference "#PWR021") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR04") (unit 1)
         )
@@ -3224,7 +3220,7 @@
           (reference "#PWR08") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR011") (unit 1)
         )
@@ -3241,7 +3237,7 @@
     (property "Value" "C_Polarized" (at 105.41 100.7109 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 102.5652 104.14 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 102.5652 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 100.33 0)
@@ -3255,7 +3251,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "C1") (unit 1)
         )
@@ -3285,7 +3281,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR016") (unit 1)
         )
@@ -3310,7 +3306,7 @@
     )
     (pin "1" (uuid 83f3244a-4ee5-434e-ae7d-254d9e6d5c9d))
     (instances
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR023") (unit 1)
         )
@@ -3340,7 +3336,7 @@
           (reference "#PWR06") (unit 1)
         )
       )
-      (project "BaseRoulanteNew"
+      (project "base-rulante-lmdv2"
         (path "/9adaef67-5459-4c17-9d1c-224f3d934c42"
           (reference "#PWR09") (unit 1)
         )
