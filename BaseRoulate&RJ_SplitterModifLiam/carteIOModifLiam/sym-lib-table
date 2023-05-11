@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "club_robot_claudia_sym")(type "KiCad")(uri "${KIPRJMOD}/club_robot_claudia_sym.kicad_sym")(options "")(descr ""))
+  (lib (name "Robot")(type "KiCad")(uri "C:/Users/Clara/OneDrive/Documentos/kicad/blinking led/PCB/libkicad-robot-master/library/symbols/Robot.kicad_sym")(options "")(descr ""))
+)
